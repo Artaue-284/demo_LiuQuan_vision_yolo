@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dataset (不要上传数据集)
+部分RM装甲板数据集/
+dataset/images/
+dataset/labels/
+dataset/all_labels/
+dataset/visualization/
+
+# 中间权重 (只保留 best.pt)
+runs/*/weights/epoch*.pt
+runs/*/weights/last.pt
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude
+.claude/
+
+# 旧训练目录
+rm_vision/
+
+# 下载的临时模型
+yolo26n.pt
+
+# 考核文档
+RoboMaster*.pdf

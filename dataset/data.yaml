@@ -1,0 +1,14 @@
+# RoboMaster 装甲板检测数据集配置
+# 6分类: red3(0) red1(1) redsb(2) blue3(3) blue1(4) bluesb(5)
+
+train: images/train
+val: images/val
+
+nc: 6
+names:
+  0: red3
+  1: red1
+  2: redsb
+  3: blue3
+  4: blue1
+  5: bluesb
